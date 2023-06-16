@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
-*main -  a C program that prints this text line followed by a new line.
+*main -  a C program that prints this text line followed by a new line
+*
 *Return: Alwaysreturns 0 (Success)
 */
 int main(void)
