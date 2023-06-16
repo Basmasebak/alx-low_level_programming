@@ -1,11 +1,11 @@
-#include <stdio.h>
-/*
-*main -  a C program that prints this text line followed by a new line
-*
-*Return: Alwaysreturns 0 (Success)
+#include<stdio.h>
+/**
+*main - this is a main function
+*@max - the starting point of the program
+*Return:  integer value called zero
 */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
+printf("Hello World \n");
 return (0);
 }
