@@ -1,11 +1,9 @@
 #include<stdio.h>
-/** 
- *main - prints the size of various types on the computer
+/**
+ * main - Function called main
  *
- *@max - descrption
- * 
- *Return: will be return 0
- */ 
+ * Return: Return 0
+ */
 int main(void) 
 { 
 printf("Size of a char: %d byte(s)\n", sizeof(char));
