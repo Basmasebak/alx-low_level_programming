@@ -4,7 +4,8 @@
 /**
  *main - is the function to define the vlue of n
  *
- * Return: Always 0 (Success)
+ * 
+ *Return: Always 0 (Success)
  *
  */
 int main(void)
@@ -15,11 +16,11 @@ int main(void)
 	n = rand() -  RAND_MAX / 2;
 
 	if (n > 0)
-		printf("is positive");
+		printf("%d is positive\n", n); 
 	else if (n == 0)
-		printf("is zero");
-	else if (n < 0)
-		printf("is negative");
+		printf("%d is zero\n", n); 
+	else
+		printf("%d is negative\n", n); 
 	return (0);
 }
 
