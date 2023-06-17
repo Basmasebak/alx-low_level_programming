@@ -2,7 +2,9 @@
 #include<time.h>
 #include<stdio.h>
 /**
- *main - Is the function to define the vlue of N
+ *main - is the function to define the vlue of n
+ *
+ * Return: Always 0 (Success)
  *
  */
 int main(void)
@@ -10,7 +12,7 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand() - i RAND_MAX / 2;
+	n = rand() -  RAND_MAX / 2;
 
 	if (n > 0)
 		printf("is positive");
