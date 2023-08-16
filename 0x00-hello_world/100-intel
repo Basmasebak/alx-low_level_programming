@@ -1,9 +1,3 @@
-#!/bin/bash
-# Generate assembly code from C code
+i#!/bin/bash
+gcc -S -masm=intel "$CFILE" -o "${CFILE%.c}.s"
 
-# Get the output file name by replacing the .c extension with .s
-output_file="${CFILE%.c}.s"
-
-# Compile the C file with the -S flag to generate assembly code
-# Use the -masm=intel flag to generate Intel syntax assembly code
-gcc -S -masm=intel "$CFILE" -o "$output_file"
